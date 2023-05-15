@@ -1,0 +1,102 @@
+#header-top {
+  padding-top: 30px;
+}
+#header-top .logo {
+  display: flex;
+  align-items: center;
+}
+#header-top .reg-res {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 51px;
+  background-color: #0d223f;
+}
+#navbar a.nav-link {
+  font-family: SanFranciscoLight, arial;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+#popular-programs {
+  padding: 4em 0;
+  background: #eee;
+}
+#popular-programs .popular-title {
+  color: #0d223f;
+  font-family: SanFranciscoBold, Arial, serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+#popular-programs .view-all {
+  color: #e9284b;
+  font-family: SanFranciscoRegular, Arial, serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-decoration: none;
+  outline: none;
+  height: 100%;
+}
+#popular-programs .icon-right-arrow {
+  display: inline-block;
+  width: 24px;
+  height: 18px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDE3MiAxNzIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIj48cGF0aCBkPSJNMCAxNzJWMGgxNzJ2MTcyeiIvPjxwYXRoIGQ9Ik0xMzAuODQgNDguMTJhMy40ODUgMy40ODUgMCAwMC0zLjIzOCAyLjA4MyAzLjQ0NyAzLjQ0NyAwIDAwLjcxMyAzLjc3NWwyNy40NCAyOC41ODJINi45NmEzLjQyMyAzLjQyMyAwIDAwLTMuMDEgMS43MDcgMy40MDkgMy40MDkgMCAwMDAgMy40NjYgMy40MjMgMy40MjMgMCAwMDMuMDEgMS43MDdoMTQ4Ljc5M2wtMjcuNDQgMjguNTgyYTMuNDQgMy40NCAwIDAwLjEwOCA0Ljg2NCAzLjQyOCAzLjQyOCAwIDAwNC44NjUtLjEwOEwxNjguNiA4NmwtMzUuMzEzLTM2Ljc3OGEzLjQ1OCAzLjQ1OCAwIDAwLTIuNDQ2LTEuMTAyeiIgZmlsbD0iI2U5Mjg0YiIvPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
+  background-size: 100%;
+}
+#popular-programs .popular-title-main {
+  padding: 3rem 0;
+}
+#popular-programs .card-title {
+  font-family: SanFranciscoBold, Arial, serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #333;
+}
+#popular-programs .type {
+  display: block;
+  margin-bottom: 6px;
+  font-family: SanFranciscoRegular, Arial, serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #8892a0;
+}
+#popular-programs .new-pricing {
+  font-family: SanFranciscoRegular, Arial, serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #e9284b;
+}
+#popular-programs .old-pricing {
+  text-decoration: line-through;
+  font-family: SanFranciscoRegular, Arial, serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #a4abb5;
+  margin-left: 5px;
+}
+#popular-programs .card {
+  border-radius: 0;
+  margin-top: 4em;
+  box-shadow: 1.5px 2.598px 5px rgba(0, 0, 0, 0.24);
+  height: 100%;
+}
+#popular-programs .card-body {
+  height: 100%;
+}
+#popular-programs .card-img {
+  height: 100%;
+}
+#popular-programs .card-img img {
+  height: 100%;
+}
+#popular-programs a {
+  text-decoration: none;
+}
