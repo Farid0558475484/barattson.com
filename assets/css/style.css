@@ -259,3 +259,85 @@
 #partners img {
   max-height: 133px;
 }
+
+#footer-bottom {
+  background: #0d223f;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+#footer-bottom a {
+  text-decoration: none;
+}
+#footer-bottom .text-white {
+  font-family: SanFranciscoRegular, serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+#footer-bottom .a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #footer-bottom .text-white {
+    font-size: 1.06em;
+  }
+}
+
+#footer-top {
+  background: #14325a;
+  padding-top: 4.8em;
+  padding-bottom: 3em;
+  min-height: 315px;
+}
+#footer-top a {
+  text-decoration: none;
+}
+#footer-top .number-info li img {
+  width: 26px;
+  margin-right: 7px;
+}
+#footer-top .number-info li span {
+  font-size: 25px;
+  color: white;
+}
+#footer-top .text-uppercase {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+#footer-top .social li a {
+  width: 34px;
+  height: 34px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+#footer-top .fab {
+  font-family: "Font Awesome 5 Brands";
+}
+#footer-top .fa-facebook-f:before {
+  content: "\f39e";
+}
+#footer-top .social li {
+  margin: 1.3em 0.3em;
+}
+#footer-top .text-white {
+  font-size: 1.3rem;
+}
+#footer-top h5 {
+  font-family: SanFranciscoBold, arial, serif;
+  font-weight: 700;
+  font-size: 23px !important;
+}
+@media screen and (max-width: 768px) {
+  #footer-top .text-white {
+    font-size: 1rem;
+  }
+}
