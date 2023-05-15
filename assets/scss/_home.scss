@@ -182,3 +182,57 @@
     font-size: 1.6em;
   }
 }
+
+#teachers {
+  padding: 4em 0;
+  background: #eee;
+  h1 {
+    font-family: SanFranciscoBold, Arial, serif;
+    font-weight: 700;
+    color: #0d223f;
+    font-size: 2.7em;
+  }
+  .view-all {
+    font-family: SanFranciscoRegular, Arial, serif;
+    font-weight: 700;
+    color: #e9284b;
+    font-size: 1.1em;
+    text-decoration: none;
+    outline: none;
+  }
+  .icon-right-arrow {
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDE3MiAxNzIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIj48cGF0aCBkPSJNMCAxNzJWMGgxNzJ2MTcyeiIvPjxwYXRoIGQ9Ik0xMzAuODQgNDguMTJhMy40ODUgMy40ODUgMCAwMC0zLjIzOCAyLjA4MyAzLjQ0NyAzLjQ0NyAwIDAwLjcxMyAzLjc3NWwyNy40NCAyOC41ODJINi45NmEzLjQyMyAzLjQyMyAwIDAwLTMuMDEgMS43MDcgMy40MDkgMy40MDkgMCAwMDAgMy40NjYgMy40MjMgMy40MjMgMCAwMDMuMDEgMS43MDdoMTQ4Ljc5M2wtMjcuNDQgMjguNTgyYTMuNDQgMy40NCAwIDAwLjEwOCA0Ljg2NCAzLjQyOCAzLjQyOCAwIDAwNC44NjUtLjEwOEwxNjguNiA4NmwtMzUuMzEzLTM2Ljc3OGEzLjQ1OCAzLjQ1OCAwIDAwLTIuNDQ2LTEuMTAyeiIgZmlsbD0iI2U5Mjg0YiIvPjwvZz48L3N2Zz4=)
+      50% 50% no-repeat;
+    background-size: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .card-title {
+    font-family: SanFranciscoBold, Arial, serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #333;
+  }
+  .card-body p {
+    font-family: SanFranciscoRegular, Arial, serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #8892a0;
+  }
+
+  .card {
+    border-radius: 0;
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 252, 252, 0.87);
+    box-shadow: 1.5px 2.598px 5px rgba(0, 0, 0, 0.24);
+    height: 100%;
+  }
+  .card img {
+    display: flex;
+    bottom: -5px;
+  }
+}
