@@ -170,3 +170,24 @@
   width: 100%;
   content: "";
 }
+
+#facts h1 {
+  color: #0d223f;
+  font-family: SanFranciscoBold, Arial, serif;
+  font-weight: 700;
+  font-size: 2.7em;
+}
+#facts .base-pink {
+  font-family: SanFranciscoBold, arial, serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 6.67em;
+  color: #e9284b;
+}
+#facts .base-blue {
+  font-family: SanFranciscoBold, arial, serif;
+  font-weight: 700;
+  text-align: center;
+  color: #0d223f;
+  font-size: 1.6em;
+}
