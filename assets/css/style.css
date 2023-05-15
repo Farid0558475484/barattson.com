@@ -33,7 +33,12 @@
   color: #0d223f;
   font-family: SanFranciscoBold, Arial, serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  #popular-programs .popular-title {
+    font-size: 2rem;
+  }
 }
 #popular-programs .view-all {
   color: #e9284b;
@@ -86,9 +91,6 @@
   border-radius: 0;
   margin-top: 4em;
   box-shadow: 1.5px 2.598px 5px rgba(0, 0, 0, 0.24);
-  height: 100%;
-}
-#popular-programs .card-body {
   height: 100%;
 }
 #popular-programs .card-img {
@@ -181,7 +183,7 @@
   font-family: SanFranciscoBold, arial, serif;
   font-weight: 700;
   text-align: center;
-  font-size: 6.67em;
+  font-size: 5.67em;
   color: #e9284b;
 }
 #facts .base-blue {
@@ -256,8 +258,22 @@
   flex-flow: row;
   justify-content: space-around;
 }
+#partners .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+#partners .wrap-992-0 {
+  flex-wrap: wrap !important;
+}
 #partners img {
   max-height: 133px;
+}
+@media screen and (max-width: 768px) {
+  #partners .col-12 a {
+    flex: 1 1 30%;
+    margin: 5px 1%;
+  }
 }
 
 #footer-bottom {
@@ -338,6 +354,61 @@
 }
 @media screen and (max-width: 768px) {
   #footer-top .text-white {
-    font-size: 1rem;
+    font-size: 1em;
   }
+}
+#footer-top li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  #header-top,
+  #navbar {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #header-mobile {
+    display: none;
+  }
+}
+#header-mobile {
+  background-color: #0d223f;
+}
+#header-mobile .offcanvas {
+  visibility: visible;
+}
+#header-mobile .offcanvas-header,
+#header-mobile .offcanvas-body {
+  background-color: #0d223f;
+}
+#header-mobile li {
+  list-style: none;
+}
+#header-mobile li a {
+  color: white;
+  text-decoration: none;
+}
+#header-mobile .mobile_log {
+  width: 30px;
+  height: 30px;
+}
+#header-mobile .offcanvas-start {
+  width: 100vh;
+}
+#header-mobile .offcanvas-header {
+  padding: 1rem 0;
+}
+#header-mobile .btn-about {
+  padding: 0;
+  background-color: #0d223f;
+  border: none;
+}
+#header-mobile .container {
+  padding-right: var(--bs-gutter-x, 0rem) !important;
+  padding-left: var(--bs-gutter-x, 0rem) !important;
+}
+#header-mobile .menu-icon-img {
+  background-color: #0d223f;
+  border: none;
 }
