@@ -518,10 +518,10 @@ a {
   text-decoration: none;
 }
 
-#news a {
+#news a, #photo-gallery a {
   text-decoration: none !important;
 }
-#news .breadcrumb {
+#news .breadcrumb, #photo-gallery .breadcrumb {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -531,10 +531,10 @@ a {
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
-#news .breadcrumb li a {
+#news .breadcrumb li a, #photo-gallery .breadcrumb li a {
   color: #e9284b;
   text-decoration: none;
 }
-#news .card {
+#news .card, #photo-gallery .card {
   margin-top: 0em !important;
 }
