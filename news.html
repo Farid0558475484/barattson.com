@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Hacizade Farid" />
+    <title>Barattson - Employability through education!</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <section id="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="logo">
+                <a href="/" class="logo">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/logo.png"
+                    alt="Barattson - Employability through education!"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="reg-res">
+                <a class="btn" href="/register" target="_blank">
+                  <img src="./assets/img/register.svg" alt="Register Icon" />
+                  Registration
+                </a>
+
+                <a
+                  class="btn"
+                  href="http://schoolman.barattson.com/exam/checkresult.aspx"
+                  target="_blank"
+                >
+                  <img src="./assets/img/result.svg" alt="Results Icon" />
+                  Results
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="navbar">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container" style="flex-direction: row-reverse">
+            <ul
+              class="nav-right navbar-nav d-flex flex-row align-items-center justify-content-end list-unstyled"
+            >
+              <li class="nav-item">
+                <button
+                  class="navbar-toggler text-white"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" id="search-toggle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-size="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g fill="#ffffff">
+                        <path
+                          d="M74.53333,17.2c-31.59642,0 -57.33333,25.73692 -57.33333,57.33333c0,31.59642 25.73692,57.33333 57.33333,57.33333c13.73998,0 26.35834,-4.87915 36.24766,-12.97839l34.23203,34.23203c1.43802,1.49778 3.5734,2.10113 5.5826,1.57735c2.0092,-0.52378 3.57826,-2.09284 4.10204,-4.10204c0.52378,-2.0092 -0.07957,-4.14458 -1.57735,-5.5826l-34.23203,-34.23203c8.09924,-9.88932 12.97839,-22.50768 12.97839,-36.24766c0,-31.59642 -25.73692,-57.33333 -57.33333,-57.33333zM74.53333,28.66667c25.39937,0 45.86667,20.4673 45.86667,45.86667c0,25.39937 -20.46729,45.86667 -45.86667,45.86667c-25.39937,0 -45.86667,-20.46729 -45.86667,-45.86667c0,-25.39937 20.4673,-45.86667 45.86667,-45.86667z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <a href="/" class="text-center">
+                  <img
+                    class="mobile_logo"
+                    src="./assets/img/LogoIcon.png"
+                    alt="Barattson - Employability through education!"
+                    style="width: 50px"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown show lang">
+                  <a
+                    class="text-white text-decoration-none text-uppercase"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <img style="width: 22px" src="./assets/img/en.svg" />
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a
+                      class="dropdown-item"
+                      style="padding: 0.25rem 0.5rem"
+                      href="/az"
+                      ><img style="width: 22px" src="./assets/img/aze.svg"
+                    /></a>
+                    <a
+                      class="dropdown-item"
+                      style="padding: 0.25rem 0.5rem"
+                      href="/en"
+                      ><img style="width: 22px" src="./assets/img/en.svg"
+                    /></a>
+                    <a
+                      class="dropdown-item"
+                      style="padding: 0.25rem 0.5rem"
+                      href="/ru"
+                      ><img style="width: 22px" src="./assets/img/ru.svg"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav mr-auto justify-content-around"
+                style="min-width: 76%"
+              >
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    About us
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/about">About us</a>
+                    <a class="dropdown-item" href="/team">Team</a>
+                    <a class="dropdown-item" href="/vacancies">Vacancies</a>
+                    <a class="dropdown-item" href="/news-ads">News &amp; Ads</a>
+                    <a class="dropdown-item" href="/photo">Photo gallery</a>
+                    <a class="dropdown-item" href="/video">Video gallery</a>
+                    <a class="dropdown-item" href="/events">Exams</a>
+                    <a class="dropdown-item" href="/testimonials"
+                      >Testimonials</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/courses" target="_self"
+                    >Programs
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/events" target="_self">Exams</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/teachers" target="_self"
+                    >Teachers</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="http://schoolman.barattson.com/Exam/ExamRegistration.aspx"
+                    target="_blank"
+                    >ACCA CBE</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="http://www.pearsonvue.com/test-taker.asp"
+                    target="_blank"
+                    >Pearson VUE
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.ef.com/az/"
+                    target="_blank"
+                    >EF</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section id="header-mobile">
+        <div>
+          <button
+            class="menu-icon-img"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            <img src="./assets/img/icons8-menu-48.png" />
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-md-12 d-flex justify-content-around align-items-center"
+                  >
+                    <li class="nav-item col-md-3">
+                      <a
+                        class="nav-link text-white"
+                        href="#"
+                        id="search-toggle"
+                      >
+                        <button
+                          type="button"
+                          style="background-color: #0d223f; border: none"
+                          data-bs-dismiss="offcanvas"
+                          aria-label="Close"
+                        >
+                          <img
+                            src="./assets/img/PngItem_4856652.png"
+                            style="width: 20px"
+                          />
+                        </button>
+                        <!-- <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0px"
+                            y="0px"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 172 172"
+                            style="fill: #000000"
+                          >
+                            <g
+                              fill="none"
+                              fill-rule="nonzero"
+                              stroke="none"
+                              stroke-width="1"
+                              stroke-linecap="butt"
+                              stroke-linejoin="miter"
+                              stroke-miterlimit="10"
+                              stroke-dasharray=""
+                              stroke-dashoffset="0"
+                              font-family="none"
+                              font-size="none"
+                              style="mix-blend-mode: normal"
+                            >
+                              <path d="M0,172v-172h172v172z" fill="none"></path>
+                              <g fill="#ffffff">
+                                <path
+                                  d="M74.53333,17.2c-31.59642,0 -57.33333,25.73692 -57.33333,57.33333c0,31.59642 25.73692,57.33333 57.33333,57.33333c13.73998,0 26.35834,-4.87915 36.24766,-12.97839l34.23203,34.23203c1.43802,1.49778 3.5734,2.10113 5.5826,1.57735c2.0092,-0.52378 3.57826,-2.09284 4.10204,-4.10204c0.52378,-2.0092 -0.07957,-4.14458 -1.57735,-5.5826l-34.23203,-34.23203c8.09924,-9.88932 12.97839,-22.50768 12.97839,-36.24766c0,-31.59642 -25.73692,-57.33333 -57.33333,-57.33333zM74.53333,28.66667c25.39937,0 45.86667,20.4673 45.86667,45.86667c0,25.39937 -20.46729,45.86667 -45.86667,45.86667c-25.39937,0 -45.86667,-20.46729 -45.86667,-45.86667c0,-25.39937 20.4673,-45.86667 45.86667,-45.86667z"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg> -->
+                      </a>
+                    </li>
+                    <li
+                      class="nav-item d-lg-none col-md-6"
+                      style="margin-left: -35px"
+                    >
+                      <a href="/" class="text-center">
+                        <img
+                          class="mobile_log img-fluid"
+                          src="./assets/img/LogoIcon.png"
+                          alt="Barattson - Employability through education!"
+                          style="width: 50px; height: 50px"
+                        />
+                      </a>
+                    </li>
+                    <li class="nav-item col-md-3">
+                      <div class="dropdown show lang">
+                        <a
+                          class="text-white text-decoration-none text-uppercase"
+                          href="#"
+                          role="button"
+                          id="dropdownMenuLink"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <img style="width: 30px" src="./assets/img/en.svg" />
+                        </a>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="dropdownMenuLink"
+                        >
+                          <a
+                            class="dropdown-item"
+                            style="padding: 0.25rem 0.5rem"
+                            href="/az"
+                            ><img
+                              style="width: 22px"
+                              src="./assets/img/aze.svg"
+                          /></a>
+                          <a
+                            class="dropdown-item"
+                            style="padding: 0.25rem 0.5rem"
+                            href="/en"
+                            ><img style="width: 22px" src="./assets/img/en.svg"
+                          /></a>
+                          <a
+                            class="dropdown-item"
+                            style="padding: 0.25rem 0.5rem"
+                            href="/ru"
+                            ><img style="width: 22px" src="./assets/img/ru.svg"
+                          /></a>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul
+                  class="navbar-nav mr-auto justify-content-around"
+                  style="min-width: 76%; text-align: center"
+                >
+                  <li class="nav-item dropdown">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle btn-about"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        About Us
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        style="background-color: #0d223f"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="./about.html"
+                            >About us</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./team.html">Team</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./vacancies.html"
+                            >Vacancies</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./news.html"
+                            >News & Ads</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./photo-gallery.html"
+                            >Photo gallery</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./video-gallery.html"
+                            >Video gallery</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./exams.html">Exams</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./testimials.html"
+                            >Testimonials</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/courses" target="_self"
+                      >Programs
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./exams.html" target="_self"
+                      >Exams</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./teachers.html" target="_self"
+                      >Teachers</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="http://schoolman.barattson.com/Exam/ExamRegistration.aspx"
+                      target="_blank"
+                      >ACCA CBE</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="http://www.pearsonvue.com/test-taker.asp"
+                      target="_blank"
+                      >Pearson VUE
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="https://www.ef.com/az/"
+                      target="_blank"
+                      >EF</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="news">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/">Home</a></li>
+                  <li class="breadcrumb-item"><a href="/about">About us</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    News & Ads
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-12">
+              <h1 class="mb-3 mt-3">News & Ads</h1>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/idp-ielts-barattson-together-with-eland-education-held-ielts-masterclass-event-40"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="IDP IELTS Barattson together with Eland Education held IELTS Masterclass event"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      IDP IELTS Barattson together with Eland Education held
+                      IELTS Masterclass event
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/acting-under-the-motto-from-education-to-profession-barattson-continues-his-mission--34"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img class="card-img-top img-fluid rounded-0"
+                  src="./assets/img/5e67976d3bce9.jpg"
+                   alt="Acting under
+                  the motto " from="" education="" to="" profession",=""
+                  barattson="" continues="" his="" mission="" ..."="">
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Acting under the motto "From education to profession",
+                      Barattson continues his mission ...
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/barattson-llc-is-expanding-its-international-cooperation-37"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Barattson LLC is expanding its international cooperation"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Barattson LLC is expanding its international cooperation
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/the-dipifr-open-door-event-was-held-31"
+                class="text-decoration-none"
+              >
+                <div class="card " >
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="The DipIFR Open Door event was held"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      The DipIFR Open Door event was held
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/educational-model-of-the-future-virtual-reality-is-already-happening-28"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Educational model of the future Virtual reality is already happening"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Educational model of the future Virtual reality is already
+                      happening
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/lessons-are-starting-in-the-virtual-reality-25"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Lessons are starting in the virtual reality"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Lessons are starting in the virtual reality
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/the-national-certificate-award-ceremony-was-held-in-barattson-19"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="The National Certificate Award Ceremony was held in Barattson"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      The National Certificate Award Ceremony was held in
+                      Barattson
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/barattson-appoints-its-first-educational-ambassador-22"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Barattson appoints its first educational ambassador"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Barattson appoints its first educational ambassador
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/barattson-organized-an-open-door-pac-event-16"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Barattson organized an Open Door PAC event"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Barattson organized an Open Door PAC event
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/elshan-rahimov-has-resigned-13"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Elshan Rahimov has resigned!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Elshan Rahimov has resigned!
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/its-time-to-learn-english-in-barattson-now-10"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="It's time to learn English in Barattson now!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      It's time to learn English in Barattson now!
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/summer-discount-for-acca-trainings-7"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Summer discount for ACCA trainings!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Summer discount for ACCA trainings!
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+              <a
+                href="/news-ads/ramadan-never-misses-the-opportunity-1"
+                class="text-decoration-none"
+              >
+                <div class="card ">
+                  <img
+                    class="card-img-top img-fluid rounded-0"
+                    src="./assets/img/5e67976d3bce9.jpg"
+                    alt="Ramadan never misses the opportunity!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title base-blue">
+                      Ramadan never misses the opportunity!
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-12 footer-contact">
+              <ul>
+                <li>
+                  <h5 class="text-uppercase text-white">Contacts</h5>
+                </li>
+                <li>
+                  <select name="branchs" id="branchs">
+                    <option value="1">Main office</option>
+                    <option value="2">Nizami branch</option>
+                  </select>
+                </li>
+                <li>
+                  <p class="text-white" id="main_office">
+                    Bakhtiyar Vahabzadeh, 5, 3rd floor, Baku AZ1141, Azerbaijan.
+                  </p>
+                  <p
+                    class="text-white"
+                    id="nizami_branch"
+                    style="display: none"
+                  >
+                    44 Jafar Jabbarli street, Caspian Plaza 3, 7th floor. Baku
+                    AZ1065, Azerbaijan.
+                  </p>
+                </li>
+                <li class="d-flex">
+                  <a
+                    href="/contacts#showmap"
+                    class="text-white map d-flex align-items-center"
+                    style="gap: 20px"
+                  >
+                    View map<img
+                      class="ml-4"
+                      src="assets/img/map.png"
+                      alt="map"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-xl-3 col-lg-3 col-sm-6 col-xs-12 d-flex pr-xl-5 justify-start-767"
+            >
+              <ul>
+                <li><a href="/team" class="text-white">Team</a></li>
+                <li><a href="/vacancies" class="text-white">Vacancies</a></li>
+                <li>
+                  <a href="/news-ads" class="text-white">News &amp; Ads</a>
+                </li>
+                <li><a href="/photo" class="text-white">Photo gallery</a></li>
+                <li><a href="/video" class="text-white">Video gallery</a></li>
+                <li>
+                  <a href="/testimonials" class="text-white">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-xl-2 col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-start pl-xl-5 justify-start-767"
+            >
+              <ul>
+                <li>
+                  <a href="/courses" class="text-white" target="_self"
+                    >Programs
+                  </a>
+                </li>
+                <li>
+                  <a href="/events" class="text-white" target="_self">Exams</a>
+                </li>
+                <li>
+                  <a href="/teachers" class="text-white" target="_self"
+                    >Teachers</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://schoolman.barattson.com/Exam/ExamRegistration.aspx"
+                    class="text-white"
+                    target="_blank"
+                    >ACCA CBE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://www.pearsonvue.com/test-taker.asp"
+                    class="text-white"
+                    target="_blank"
+                    >Pearson VUE
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.ef.com/az/"
+                    class="text-white"
+                    target="_blank"
+                    >EF</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-xl-4 col-lg-3 col-sm-6 col-xs-12 d-flex align-items-end justify-content-start flex-column align-items-center"
+            >
+              <ul
+                class="social d-flex flex-row justify-content-around list-unstyled"
+              >
+                <li>
+                  <a href="https://facebook.com/Barattson" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://youtube.com/user/barattson" target="_blank"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/company/barattson"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/barattson" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/barattson" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+              <ul
+                class="number-info d-flex flex-column list-unstyled align-items-center-576"
+              >
+                <li class="text-uppercase text-center">Call us</li>
+                <li>
+                  <img class="p" src="assets/img/phone.svg" alt="" /><span
+                    >+994 55 504 44 95</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <sections id="footer-bottom">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 h-100 a">
+              <span class="text-white">© Barattson LLC 2014-2023</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 h-100 a">
+              <a href="http://benzeine.com/" target="_blank" class="text-white"
+                >benzeine LLC</a
+              >
+            </div>
+          </div>
+        </div>
+      </sections>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
