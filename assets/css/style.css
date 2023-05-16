@@ -499,3 +499,21 @@ a {
 #team .card {
   margin-top: 0px;
 }
+
+#vacancies a {
+  text-decoration: none !important;
+}
+#vacancies .breadcrumb {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+#vacancies .breadcrumb li a {
+  color: #e9284b;
+  text-decoration: none;
+}
