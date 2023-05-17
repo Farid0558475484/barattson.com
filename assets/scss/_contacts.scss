@@ -1,0 +1,33 @@
+#contacts {
+  a {
+    text-decoration: none !important;
+  }
+  .breadcrumb {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+  }
+  .breadcrumb li a {
+    color: #e9284b;
+    text-decoration: none;
+  }
+  .base-pink {
+    color: #e9284b !important;
+  }
+  a {
+    text-decoration: none;
+    color: #0d223f;
+  }
+  div.left-row {
+    border-bottom: 1px solid #0d223f;
+  }
+  .contact {
+    color: rgba(12, 21, 25, 0.56);
+    font-size: 16px;
+  }
+}
