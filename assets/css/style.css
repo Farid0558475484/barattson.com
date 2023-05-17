@@ -783,3 +783,39 @@ a {
   display: flex;
   bottom: -5px;
 }
+
+#register-page .breadcrumb {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+#register-page .breadcrumb li a {
+  color: #e9284b;
+  text-decoration: none;
+}
+#register-page .site_register_container {
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#register-page .site_register_item {
+  background: #14325a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#register-page .site_register_item p {
+  margin: 0;
+  padding: 10px 30px;
+  font-size: 30px;
+}
+#register-page a {
+  text-decoration: none !important;
+  color: white;
+}
