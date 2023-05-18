@@ -33,12 +33,25 @@
     background-size: 100%;
   }
 
-  .popular-title-main {
-    padding: 3rem 0;
-  }
   @media screen and (max-width: 768px) {
     .popular-title-main {
       padding: 0rem 0 !important;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  #popular-programs,
+  #exams,
+  #teachers {
+    padding: 2em 0;
+    .view-all {
+      font-size: 0.8em !important;
+    }
+    .popular-title,
+    .exams-title,
+    .teachers-title,
+    .facts-title {
+      font-size: 1.5rem !important;
     }
   }
 }
@@ -376,7 +389,7 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   #header-top,
   #navbar {
     display: none;
@@ -429,5 +442,161 @@ a {
   .menu-icon-img {
     background-color: #0d223f;
     border: none;
+  }
+}
+
+#other-courses {
+  border-bottom: 4px solid #ddd;
+  a {
+    text-decoration: none;
+  }
+  #nav-tab a.active svg {
+    fill: #0d223f;
+  }
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  #nav-tab a.active {
+    background-color: transparent;
+    border: 0;
+    border-color: transparent;
+  }
+  nav #nav-tab a {
+    flex: 1 1;
+    background-color: transparent;
+    border: 0;
+    border-color: transparent;
+    align-self: baseline;
+    margin-top: 1em;
+  }
+  nav #nav-tab a.active div.tab-bottom-border {
+    width: 100%;
+    position: relative;
+    top: 11px;
+    display: flex;
+  }
+  #nav-tab a.active div.tab-bottom-border span.left,
+  section.other-courses nav #nav-tab a.active div.tab-bottom-border span.right {
+    width: 48%;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span {
+    display: inline-block;
+    height: 4px;
+    background: #e9284b;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.left:after {
+    content: "";
+    position: relative;
+    left: 100%;
+    background: #e9284b;
+    width: 3px;
+    height: 4px;
+    display: block;
+    border-top-right-radius: 50%;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.left-transform {
+    transform: rotate(45deg);
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.left-transform,
+  section.other-courses
+    nav
+    #nav-tab
+    a.active
+    div.tab-bottom-border
+    span.right-transform {
+    width: 13px;
+    position: relative;
+    top: 4px;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span {
+    display: inline-block;
+    height: 4px;
+    background: #e9284b;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.left-transform:after {
+    position: relative;
+    content: "";
+    display: block;
+    background: #e9284b;
+    width: 3.9px;
+    height: 4px;
+    left: 100%;
+    top: 0;
+  }
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.right-transform {
+    transform: rotate(-45deg);
+  }
+  #nav-tab a.active div.tab-bottom-border span.right-transform:before {
+    position: relative;
+    content: "";
+    display: block;
+    background: #e9284b;
+    width: 1.5px;
+    height: 4px;
+    top: 0;
+    right: 1.5px;
+  }
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.right {
+    float: right;
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.right:before {
+    content: "";
+    position: relative;
+    right: 3px;
+    background: #e9284b;
+    width: 3px;
+    height: 4px;
+    display: block;
+    border-top-left-radius: 50%;
+  }
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+  #nav-tab a.active div.tab-bottom-border span.right-transform {
+    transform: rotate(-45deg);
+  }
+  nav #nav-tab a.active div.tab-bottom-border span.right-transform {
+    width: 13px;
+    position: relative;
+    top: 4px;
+  }
+  #nav-tab a.active div.tab-bottom-border span {
+    display: inline-block;
+    height: 4px;
+    background: #e9284b;
+  }
+  #nav-tab a.active div.tab-bottom-border span.right {
+    float: right;
+  }
+  #nav-tab a.active div.tab-bottom-border span.right {
+    width: 48%;
+  }
+  #nav-tab a.active div.tab-bottom-border span {
+    display: inline-block;
+    height: 4px;
+    background: #e9284b;
+  }
+  #nav-tab a.active div.tab-bottom-border span.right:before {
+    content: "";
+    position: relative;
+    right: 3px;
+    background: #e9284b;
+    width: 3px;
+    height: 4px;
+    display: block;
+    border-top-left-radius: 50%;
   }
 }

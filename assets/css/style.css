@@ -1,5 +1,6 @@
 #header-top {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 #header-top .logo {
   display: flex;
@@ -25,6 +26,21 @@
   display: flex;
 }
 
+#top .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#top .top img {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  #top {
+    display: none;
+  }
+}
 #popular-programs {
   padding: 4em 0;
   background: #eee;
@@ -56,15 +72,38 @@
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDE3MiAxNzIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIj48cGF0aCBkPSJNMCAxNzJWMGgxNzJ2MTcyeiIvPjxwYXRoIGQ9Ik0xMzAuODQgNDguMTJhMy40ODUgMy40ODUgMCAwMC0zLjIzOCAyLjA4MyAzLjQ0NyAzLjQ0NyAwIDAwLjcxMyAzLjc3NWwyNy40NCAyOC41ODJINi45NmEzLjQyMyAzLjQyMyAwIDAwLTMuMDEgMS43MDcgMy40MDkgMy40MDkgMCAwMDAgMy40NjYgMy40MjMgMy40MjMgMCAwMDMuMDEgMS43MDdoMTQ4Ljc5M2wtMjcuNDQgMjguNTgyYTMuNDQgMy40NCAwIDAwLjEwOCA0Ljg2NCAzLjQyOCAzLjQyOCAwIDAwNC44NjUtLjEwOEwxNjguNiA4NmwtMzUuMzEzLTM2Ljc3OGEzLjQ1OCAzLjQ1OCAwIDAwLTIuNDQ2LTEuMTAyeiIgZmlsbD0iI2U5Mjg0YiIvPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
   background-size: 100%;
 }
-#popular-programs .popular-title-main {
-  padding: 3rem 0;
-}
 @media screen and (max-width: 768px) {
   #popular-programs .popular-title-main {
     padding: 0rem 0 !important;
   }
 }
 
+@media screen and (max-width: 767px) {
+  #popular-programs,
+  #exams,
+  #teachers {
+    padding: 2em 0;
+  }
+  #popular-programs .view-all,
+  #exams .view-all,
+  #teachers .view-all {
+    font-size: 0.8em !important;
+  }
+  #popular-programs .popular-title,
+  #popular-programs .exams-title,
+  #popular-programs .teachers-title,
+  #popular-programs .facts-title,
+  #exams .popular-title,
+  #exams .exams-title,
+  #exams .teachers-title,
+  #exams .facts-title,
+  #teachers .popular-title,
+  #teachers .exams-title,
+  #teachers .teachers-title,
+  #teachers .facts-title {
+    font-size: 1.5rem !important;
+  }
+}
 .card-title {
   font-family: SanFranciscoBold, Arial, serif;
   font-size: 1.6em;
@@ -379,7 +418,7 @@ a {
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   #header-top,
   #navbar {
     display: none;
@@ -429,6 +468,157 @@ a {
 #header-mobile .menu-icon-img {
   background-color: #0d223f;
   border: none;
+}
+
+#other-courses {
+  border-bottom: 4px solid #ddd;
+}
+#other-courses a {
+  text-decoration: none;
+}
+#other-courses #nav-tab a.active svg {
+  fill: #0d223f;
+}
+#other-courses .align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+#other-courses #nav-tab a.active {
+  background-color: transparent;
+  border: 0;
+  border-color: transparent;
+}
+#other-courses nav #nav-tab a {
+  flex: 1 1;
+  background-color: transparent;
+  border: 0;
+  border-color: transparent;
+  align-self: baseline;
+  margin-top: 1em;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border {
+  width: 100%;
+  position: relative;
+  top: 11px;
+  display: flex;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.left,
+#other-courses section.other-courses nav #nav-tab a.active div.tab-bottom-border span.right {
+  width: 48%;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span {
+  display: inline-block;
+  height: 4px;
+  background: #e9284b;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.left:after {
+  content: "";
+  position: relative;
+  left: 100%;
+  background: #e9284b;
+  width: 3px;
+  height: 4px;
+  display: block;
+  border-top-right-radius: 50%;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.left-transform {
+  transform: rotate(45deg);
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.left-transform,
+#other-courses section.other-courses nav #nav-tab a.active div.tab-bottom-border span.right-transform {
+  width: 13px;
+  position: relative;
+  top: 4px;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span {
+  display: inline-block;
+  height: 4px;
+  background: #e9284b;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.left-transform:after {
+  position: relative;
+  content: "";
+  display: block;
+  background: #e9284b;
+  width: 3.9px;
+  height: 4px;
+  left: 100%;
+  top: 0;
+}
+#other-courses .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.right-transform {
+  transform: rotate(-45deg);
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.right-transform:before {
+  position: relative;
+  content: "";
+  display: block;
+  background: #e9284b;
+  width: 1.5px;
+  height: 4px;
+  top: 0;
+  right: 1.5px;
+}
+#other-courses .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.right {
+  float: right;
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.right:before {
+  content: "";
+  position: relative;
+  right: 3px;
+  background: #e9284b;
+  width: 3px;
+  height: 4px;
+  display: block;
+  border-top-left-radius: 50%;
+}
+#other-courses .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.right-transform {
+  transform: rotate(-45deg);
+}
+#other-courses nav #nav-tab a.active div.tab-bottom-border span.right-transform {
+  width: 13px;
+  position: relative;
+  top: 4px;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span {
+  display: inline-block;
+  height: 4px;
+  background: #e9284b;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.right {
+  float: right;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.right {
+  width: 48%;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span {
+  display: inline-block;
+  height: 4px;
+  background: #e9284b;
+}
+#other-courses #nav-tab a.active div.tab-bottom-border span.right:before {
+  content: "";
+  position: relative;
+  right: 3px;
+  background: #e9284b;
+  width: 3px;
+  height: 4px;
+  display: block;
+  border-top-left-radius: 50%;
 }
 
 #about-us .breadcrumb {

@@ -1,5 +1,6 @@
 #header-top {
   padding-top: 30px;
+  padding-bottom: 30px;
 
   .logo {
     display: flex;
@@ -21,11 +22,28 @@
     background-color: #0d223f;
   }
 
-a.nav-link {
+  a.nav-link {
     font-family: SanFranciscoLight, arial;
     color: #fff;
     font-size: 20px;
     text-transform: capitalize;
     display: flex;
+  }
+}
+
+#top {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  #top {
+    display: none;
   }
 }
