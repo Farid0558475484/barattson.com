@@ -143,6 +143,11 @@
   height: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .card {
+    margin-top: 2em !important;
+  }
+}
 .card-img {
   height: 100%;
 }
@@ -619,6 +624,12 @@ a {
   height: 4px;
   display: block;
   border-top-left-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  #slider .img-h-200 {
+    height: 200px;
+  }
 }
 
 #about-us .breadcrumb {
